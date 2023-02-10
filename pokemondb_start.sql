@@ -4,11 +4,12 @@ CREATE DATABASE pokemon_db
     WITH
     OWNER = postgres
     ENCODING = 'UTF8'
-    LC_COLLATE = 'Spanish_Spain.1252'
-    LC_CTYPE = 'Spanish_Spain.1252'
+    LC_COLLATE = 'es_MX.UTF-8'
+    LC_CTYPE = 'es_MX.UTF-8'
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
+
 
 
 CREATE TABLE IF NOT EXISTS abilities (
