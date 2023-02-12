@@ -42,7 +42,6 @@ CREATE TABLE IF NOT EXISTS ability_types (
 );
 
 -- Example data
-
 INSERT INTO abilities (ability)
 VALUES ('Overgrow'), ('Blaze'), ('Torrent'), ('Solar Power'), ('Chlorophyll'), ('Flame Body'), ('Sturdy'), ('Levitate'), ('Water Absorb'), ('Lightning Rod');
 
